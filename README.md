@@ -39,13 +39,15 @@ The goal of this project is to demonstrate:
 
 Make sure your database contains the following table:
 
+```sql
 CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
     enrollment_date DATE
-); 
+);
+```
 
 ## 📦 Installation & Setup
 
@@ -64,8 +66,14 @@ PGDATABASE=your_database_name
 PGUSER=your_user
 PGPASSWORD=your_password
 
-#Running the Program
+## How to run the Program
+```bash
 python main.py
+```
 
-#If the connection is successful, you should see:
+If the connection is successful, you should see:
+
+```
 LETS GOOOO.... Successfully connected to the database!
+```
+
