@@ -1,7 +1,9 @@
-# 🧑‍🎓 Student Database Manager (Python + PostgreSQL)
+# ASSIGNMENT 3
 
 This project is a simple database management tool built with Python and PostgreSQL.  
 It allows you to **view**, **add**, **update**, and **delete** student records from a `students` table in your database.
+#LINK TO VIDEO :
+https://youtu.be/4XNqTevtnEo
 
 The goal of this project is to demonstrate:
 - Secure database connections using environment variables
